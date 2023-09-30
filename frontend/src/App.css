@@ -1,0 +1,250 @@
+.main{
+  background-color: rgb(238, 233, 233);
+  color: rgb(35, 34, 34);
+}
+.main .flex{
+  display: flex;
+  justify-content: space-around;
+}
+.carousel-item img{
+  width: 100%;
+ height: 90vh;
+}
+.main .part1 ul li{
+  text-decoration: none;
+  /* margin-top: 10px; */
+  padding-top: 10px;
+  list-style: none;
+}
+.part1 ul .yyy{
+  text-decoration: double;
+  color: rgb(140, 139, 137);
+  margin-top: 100px;
+}
+.part1 ul .uuu{
+  width: 200px;
+  height: 2px;
+  background-color: rgb(0, 191, 255);
+  margin-bottom: 10px;
+}
+.flex .part2{
+  margin-top: 100px;
+  text-align: center;
+}
+.part2 .uuu{
+  width: 500px;
+  height: 2px;
+  margin-left: 80px;
+  background-color: rgb(0, 191, 255);
+  margin-bottom: 10px;
+}
+.part2 .ttt{
+  width: 300px;
+  margin-left:80px ;
+  border: none;
+}
+.part2 .flex{
+  display: flex;
+  flex-wrap: wrap;
+}
+.part2 button{
+  margin-right: 103px;
+}
+.part2 .yyy1{
+  font-size: 10px;
+  margin-right: 70px;
+}
+.part2 .yyy2{
+  margin-left: 100px;
+  margin-top: 20px;
+}
+.part2 .yyu{
+  margin-right: 100px;
+  margin-top: 20px;
+  padding-left: 10px;
+}
+
+.watch-carosal .texes{
+  font-size: 50px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.container .box{
+  /* width: 200px; */
+  /* height: 200px; */
+  /* border: 1px solid black; */
+  margin-bottom: 30px;
+
+}
+.text span{
+  font-size: 15px;
+}
+.watch-carosal .flex{
+  display: flex;
+}
+h1{
+  font-family: 'Dancing Script', cursive;
+}
+.box {
+  max-width: 300px;
+}
+.box .text1{
+  padding-right: 100px;
+}
+.box .uuu{
+  text-decoration: line-through;
+  padding-left: 10px;
+}
+.section1{
+
+ border-radius: 10%;
+}
+.tex  .iii{
+  font-size:50px;
+}
+.textv .iii{
+  font-size:50px;
+}
+.textv .ooo{
+  font-size:15px;
+}
+.textu .iii{
+  font-size:50px;
+}
+.textu .rrr{
+  font-size: 20px;
+}
+.textu .ooo{
+  font-size:15px;
+}
+.textv{
+  padding-top: 200px;
+}
+.nnn .imges img{
+  max-width: 100%;
+}
+
+.tex  .ooo{
+  font-size:15px;
+}
+.w-100 img{
+  max-width: 100%;
+}
+.kkk{
+  text-decoration: none;
+  color: black;
+}
+.container .product img{
+  max-width: 120px;
+  max-height: 170px;
+}
+.box .text{
+  padding-top: 30px;
+}
+.sec{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.container .flex{
+  display: flex;
+  flex-wrap: wrap;
+}
+.flex{
+  display: flex;
+}
+.kkk{
+  padding-top: 10px;
+  padding-left: 20px;
+}
+.ktk{
+  text-align: center;
+  color: black;
+  text-decoration: none;
+}
+.box .ttt{
+  text-decoration: none;
+  color: black;
+}
+.kkk .flex{
+  display: flex;
+}
+
+.kkk .rrrt{
+  /* border: 1px solid black; */
+  width: 20px;
+  height: 20px;
+  background-color: green;
+  color: rgb(23, 22, 22);
+  border-radius: 50%;
+  text-align: center;
+  justify-content: center;
+}
+.part1 .kkku{
+  text-decoration: none;
+}
+.yyy span{
+  text-decoration: none;
+}
+.nnn{
+  color: white;
+}
+nav .kkk:hover{
+ color: blue;
+}
+button .ktk:hover{
+  color: red;
+}
+
+.carousel-indicators{
+  display: none;
+  
+  
+}
+.bg-image {
+  
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  margin-bottom: 100px;
+}
+
+.register-container {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  color: wheat;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+}
+
+input {
+  margin-bottom: 10px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+button {
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+/* Add media queries for responsiveness */
+@media (max-width: 600px) {
+  .register-container {
+    max-width: 100%;
+    padding: 10px;
+  }
+}
